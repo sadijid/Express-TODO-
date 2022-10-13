@@ -17,8 +17,8 @@
 <div class="card-body">
 <h5 class="card-title"><%= todo.title %></h5>
 <p class="card-text"><%= todo.description %></p>
-<a href="/update-todo/<%= todo.id %>" class="btn btn-primary">Edit</a>
-<a href="/delete-todo/<%= index %>" class="btn btn-danger">Delete</a>
+<a href="/update-todo/<%= todo._id %>" class="btn btn-primary">Edit</a>
+<a href="/delete-todo/<%= todo._id %>" class="btn btn-danger">Delete</a>
 </div>
 </div>
 <% }) %>
